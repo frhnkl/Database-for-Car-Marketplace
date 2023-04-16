@@ -75,7 +75,7 @@ LIMIT 10;
 `output`:
 ![output ps](https://user-images.githubusercontent.com/125452431/232265708-51e19d65-846e-47b4-bb33-997dff4c68a6.jpg)
 
-##analytical query: Car model popularity ranking based on bid amount
+### Analytical query: Car model popularity ranking based on bid amount
 ```sql
 SELECT c.model, COUNT(DISTINCT c.car_id) AS car_count, COUNT(b.bid_id) AS bid_count
 FROM car_details c
