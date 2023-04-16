@@ -34,7 +34,8 @@ INSERT INTO bid (bid_id, car_id, user_id, bid_date, bid_price, bid_status)
 VALUES (34, 76, 'rangers123', '2021-09-02', 50000000, 'on')
 ```
 `after`: 
-![update last bid](https://user-images.githubusercontent.com/125452431/232265553-3806c749-4c2f-4f01-a47a-b6e662f5d1ea.jpg)
+![update last bid](https://user-images.githubusercontent.com/125452431/232265751-cb4e39bb-43bc-4141-b91f-2795887d3b8a.jpg)
+
 
 ### 3. View all cars sold 1 account from the most recent (using 'kolektormobil' user_id as example)
 ```sql
