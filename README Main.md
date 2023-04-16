@@ -86,7 +86,7 @@ ORDER BY SUM(b.bid_price) asc;
 `output`:
 ![analitikal 1](https://user-images.githubusercontent.com/125452431/232272089-26167b30-ad10-4e8f-a049-d8986c805249.jpg)
 
-##analytical query: Compareing car prices based on the average price per city
+### analytical query: Compareing car prices based on the average price per city
 ```sql
 SELECT 
     city.city_name,
