@@ -110,7 +110,7 @@ ORDER BY
 `output`
 ![analitikal 2](https://user-images.githubusercontent.com/125452431/232272121-7a284f93-0b9c-44e8-94c8-7dee0f9dfb4a.jpg)
 
-## analytical query: looking for a comparison of the date the user made a bid with the next bid along with the bid price given from the offer for a car model ('Camry' model as example)
+### analytical query: looking for a comparison of the date the user made a bid with the next bid along with the bid price given from the offer for a car model ('Camry' model as example)
 ```sql
        SELECT c.model, b1.user_id, b1.bid_date AS first_bid_date, b2.bid_date AS next_bid_date, b1.bid_price AS first_bid_price, b2.bid_price AS next_bid_price
 FROM bid b1
@@ -126,7 +126,7 @@ ORDER BY b1.bid_date ASC;
 `output`:
 ![analitikal 3](https://user-images.githubusercontent.com/125452431/232272177-e60c7f1f-e0ed-4c51-8389-82b78f34c9ab.jpg)
 
-## analytical query: Comparing the percentage difference in the average car price by model and the average bid price offered by customers in the last 6 months
+### analytical query: Comparing the percentage difference in the average car price by model and the average bid price offered by customers in the last 6 months
 ```sql
 SELECT cd.model,
        ROUND(AVG(c.price)::numeric, 2) AS avg_price,
@@ -143,7 +143,7 @@ ORDER BY difference_percent DESC;
 `output`:
 ![analitikal 4](https://user-images.githubusercontent.com/125452431/232272205-6c6805e4-fcaf-42fc-8af3-7f4674dc3846.jpg)
 
-## analytical query: Make a window function of the average bid price of a car brand and model for the last 6 months
+### analytical query: Make a window function of the average bid price of a car brand and model for the last 6 months
 
 ```sql
 SELECT 
