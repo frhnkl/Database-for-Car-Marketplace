@@ -69,6 +69,8 @@ CREATE TABLE "bid" (
 -- for users, city, bid, and car_details we use import method to upload datasets from csv files
 -- there is another way to add dataset into table, which is by using INSERT command
 -- for Commerce table, i will use INSERT command to input the datasets
+-- MAKE SURE THAT YOU INPUT THE CSV FILES BEFORE USING INSERT COMMAND BECAUSE BECAUSE IT NEEDED DATAS FROM THOSE FILES
+
 
 insert into commerce (user_id, car_id, city_id, description, price, bid, post_date)
 values('samarindamobil', 1, 6472, 'WTS Yaris 2016 bekas dokter. kondisi interior eksterior rapih. hubungi kontak yang tersedia!!', 125000000, True, '2020-03-01'),
